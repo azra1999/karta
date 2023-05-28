@@ -791,7 +791,7 @@
                         <td colspan="2">' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><b>' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Opis 1'] !== null ? autolinker.link(feature.properties['Opis 1'].toLocaleString()) : '') + '</td>\
@@ -854,7 +854,7 @@
                         <td colspan="2">' + (feature.properties['Slika'] !== null ? '<img src="images/' + String(feature.properties['Slika']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><b>' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Opis'] !== null ? autolinker.link(feature.properties['Opis'].toLocaleString()) : '') + '</td>\
@@ -914,7 +914,7 @@
                         <td colspan="2">' + (feature.properties['Slika'] !== null ? '<img src="images/' + String(feature.properties['Slika']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><b>' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Lokacija'] !== null ? autolinker.link(feature.properties['Lokacija'].toLocaleString()) : '') + '</td>\
@@ -1035,7 +1035,7 @@
                         <td colspan="2">' + (feature.properties['Slika'] !== null ? '<img src="images/' + String(feature.properties['Slika']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><b>' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Opis'] !== null ? autolinker.link(feature.properties['Opis'].toLocaleString()) : '') + '</td>\
@@ -1089,7 +1089,7 @@
                         <td colspan="2">' + (feature.properties['Slika'] !== null ? '<img src="images/' + String(feature.properties['Slika']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><b>' + (feature.properties['Naziv'] !== null ? autolinker.link(feature.properties['Naziv'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Opis'] !== null ? autolinker.link(feature.properties['Opis'].toLocaleString()) : '') + '</td>\
@@ -1274,7 +1274,7 @@
         bounds_group.addLayer(layer_Ugostiteljskiobjekti_21);
         cluster_Ugostiteljskiobjekti_21.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/Ugostiteljskiobjekti_21.png" /> Ugostiteljski objekti': cluster_Ugostiteljskiobjekti_21,'<img src="legend/Smjetaj_20.png" /> Smještaj': cluster_Smjetaj_20,'<img src="legend/Prirodnabogatstva_19.png" /> Prirodna bogatstva': cluster_Prirodnabogatstva_19,'<img src="legend/Historijskiobjekti_18.png" /> Historijski objekti': cluster_Historijskiobjekti_18,'<img src="legend/Quad_17.png" /> Quad': cluster_Quad_17,'<img src="legend/Lovniturizam_16.png" /> Lovni turizam': cluster_Lovniturizam_16,'<img src="legend/Ribolovniturizam_15.png" /> Ribolovni turizam': cluster_Ribolovniturizam_15,'<img src="legend/Planinarenje_14.png" /> Planinarenje': cluster_Planinarenje_14,'okolina_naziv<br /><table><tr><td style="text-align: center;"><img src="legend/okolina_naziv_13_RIBNIK0.png" /></td><td>RIBNIK</td></tr><tr><td style="text-align: center;"><img src="legend/okolina_naziv_13_SANSKIMOST1.png" /></td><td>SANSKI MOST</td></tr><tr><td style="text-align: center;"><img src="legend/okolina_naziv_13_BOSANSKIPETROVAC2.png" /></td><td>BOSANSKI PETROVAC</td></tr><tr><td style="text-align: center;"><img src="legend/okolina_naziv_13_3.png" /></td><td></td></tr></table>': layer_okolina_naziv_13,'rijeka_oznaka<br /><table><tr><td style="text-align: center;"><img src="legend/rijeka_oznaka_12_Sana0.png" /></td><td>Sana</td></tr><tr><td style="text-align: center;"><img src="legend/rijeka_oznaka_12_Sanica1.png" /></td><td>Sanica</td></tr><tr><td style="text-align: center;"><img src="legend/rijeka_oznaka_12_Banjica2.png" /></td><td>Banjica</td></tr></table>': layer_rijeka_oznaka_12,'oznaka-put<br /><table><tr><td style="text-align: center;"><img src="legend/oznakaput_11_M205M150.png" /></td><td>M-205, M-15</td></tr><tr><td style="text-align: center;"><img src="legend/oznakaput_11_M205aR410a1.png" /></td><td>M-205a, R-410a</td></tr><tr><td style="text-align: center;"><img src="legend/oznakaput_11_M52.png" /></td><td>M-5</td></tr><tr><td style="text-align: center;"><img src="legend/oznakaput_11_R165R407a3.png" /></td><td>R-165, R-407a</td></tr><tr><td style="text-align: center;"><img src="legend/oznakaput_11_R166R4104.png" /></td><td>R-166, R-410</td></tr><tr><td style="text-align: center;"><img src="legend/oznakaput_11_R407a5.png" /></td><td>R-407a</td></tr><tr><td style="text-align: center;"><img src="legend/oznakaput_11_R4106.png" /></td><td>R-410</td></tr></table>': layer_oznakaput_11,'': layer_naselja_10,'šuma<br /><table><tr><td style="text-align: center;"><img src="legend/uma_9_bjelogorična0.png" /></td><td>bjelogorična</td></tr><tr><td style="text-align: center;"><img src="legend/uma_9_mješovita1.png" /></td><td>mješovita</td></tr></table>': layer_uma_9,'<img src="legend/Naselje_8.png" /> Naselje': layer_Naselje_8,'<img src="legend/Granica_7.png" /> Granica': layer_Granica_7,'put<br /><table><tr><td style="text-align: center;"><img src="legend/put_6_R4100.png" /></td><td>R-410</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_R407a1.png" /></td><td>R-407a</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_R166R4102.png" /></td><td>R 166;R-410</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_R1663.png" /></td><td>R 166</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_R165R407a4.png" /></td><td>R 165;R 407a</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_M55.png" /></td><td>M-5</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_M205aR410a6.png" /></td><td>M 205a;R 410a</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_M205M157.png" /></td><td>M 205;M15</td></tr><tr><td style="text-align: center;"><img src="legend/put_6_8.png" /></td><td></td></tr></table>': layer_put_6,'<img src="legend/Planinarskastaza_5.png" /> Planinarska staza': layer_Planinarskastaza_5,'<img src="legend/rijeka_4.png" /> rijeka': layer_rijeka_4,'<img src="legend/znaksjevera_3.png" /> znak sjevera': layer_znaksjevera_3,"ključ_dem": layer_klju_dem_2,"hillshade": layer_hillshade_1,'<img src="legend/Okolina_0.png" /> Okolina': layer_Okolina_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/restoran.png" width="30", height="40" /> Ugostiteljski objekti': cluster_Ugostiteljskiobjekti_21,'<img src="legend/smjestaj.png" width="30", height="40"/> Smještaj': cluster_Smjetaj_20,'<img src="legend/priroda.png" width="30", height="40" /> Prirodna bogatstva': cluster_Prirodnabogatstva_19,'<img src="legend/historija.png" width="30", height="40" /> Historijski objekti': cluster_Historijskiobjekti_18,'<img src="legend/quad.png" width="30", height="40" /> Quad': cluster_Quad_17,'<img src="legend/lov.png" width="30", height="40" /> Lovni turizam': cluster_Lovniturizam_16,'<img src="legend/ribolov.png" width="30", height="40"/> Ribolovni turizam': cluster_Ribolovniturizam_15,'<img src="legend/planinarenje.png" width="30", height="40"/> Planinarenje': cluster_Planinarenje_14,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
         layer_naselja_10.eachLayer(function(layer) {
